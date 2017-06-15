@@ -8,8 +8,11 @@
 
 import Foundation
 
-print("Hello, World!")
+//print("Hello, World!")
 
+//
+// variables and constants
+//
 let sample1: UInt8 = 0x3A
 
 var sample2: UInt8 = 58
@@ -36,7 +39,80 @@ let greeting: String = "Hello"
 
 var name: String = "Karen"
 
+//
+// stuffs
+//
 if (sample1 == sample2) {
+    print("The samples are equal")
     
+} else {
+    print("The samples are not equal")
     
 }
+
+if (heartRate >= 40 && heartRate <= 80) {
+    print("Heart rate is normal")
+    
+} else {
+    print("Heart rate is not normal")
+    
+}
+
+if (deposits >= 100000000) {
+    print("You are exceedingly wealthy")
+    
+} else {
+    print("Sorry you are so poor")
+    
+}
+
+var force: Float = mass * acceleration
+
+print("force = \(force)")
+
+print("\(distance) is the distance")
+
+if (lost && expensive) {
+    print("I am really sorry! I will get the manager")
+    
+} else if (lost && !expensive) {
+    print("Here is a coupon for 10% off")
+    
+}
+
+switch (choice)
+{
+
+case 1:
+    print("You chose 1")
+    
+case 2:
+    print("You chose 2")
+    
+case 3:
+    print("You chose 2")
+    
+default:
+    print("You made an unknown choice")
+    
+}
+
+for i: Int in 5...10 {
+    print("i = \(i)")
+}
+
+var age: Int = 0
+
+while (age < 6) {
+    print("age = \(age)")
+    age += 1
+}
+
+print("\(greeting) \(name)")
+
+
+
+
+
+
+
